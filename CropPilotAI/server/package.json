@@ -1,0 +1,36 @@
+{
+  "name": "croppilotai-server",
+  "version": "1.0.0",
+  "description": "Production Express Backend & Gemini AI Engine for CropPilotAI Agriculture Advisory Assistant",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node scripts/migrate.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10"
+  },
+  "keywords": [
+    "agriculture",
+    "agritech",
+    "crop-advisory",
+    "gemini",
+    "supabase"
+  ],
+  "author": "CropPilotAI Team",
+  "license": "MIT"
+}
